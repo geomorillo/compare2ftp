@@ -12,12 +12,17 @@ Then you can use a tool like winmerge (winmerge.org) to compare the 2 files so y
 I think the script is self explaining.
 
 you must put this script one level over the folder you want to "compare"
- ex: /mydir1
+
+ex: /mydir1
+
      /mydir1/c2ftp.pl
+     
      /mydir1/myfoldertocompare
 
 It will generate:
+
 2 files: reg_crc_srv.dat and reg_crc_local.dat you can use winmerge to compare them side to side
+
 1 folder with the files downloaded from the ftp server (this could take a while depending on how many files you have)
 
 
